@@ -15,7 +15,7 @@ st.set_page_config(page_title="Food Freshness Detector", page_icon="🍎", layou
 def load_model():
     return tf.keras.models.load_model("freshness_model.h5")
 
-model = load_model()
+model = load_model('./model_name.h5')
 
 # ===== HELPER FUNCTIONS =====
 
